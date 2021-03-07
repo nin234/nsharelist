@@ -215,7 +215,9 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     aViewController = [EasyViewController alloc];
+    
     aViewController = [aViewController initWithNibName:nil bundle:nil];
+    aViewController.bShowAlexaBtn = false;
     aViewController.bShareView = false;
     aViewController.delegate = self;
     UINavigationController *navCntrl = [[UINavigationController alloc] initWithRootViewController:aViewController];
@@ -233,7 +235,9 @@
         
    
     aViewController1 = [EasyViewController alloc];
+    
     aViewController1 = [aViewController1 initWithNibName:nil bundle:nil];
+    aViewController1.bShowAlexaBtn = false;
     aViewController1.bShareView = true;
     aViewController1.delegate = self;
     

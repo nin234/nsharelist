@@ -4,9 +4,18 @@
 <dict>
 	<key>aps-environment</key>
 	<string>development</string>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array/>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
 		<string>group.grocshared</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.rekhaninan.EasyGrocList</string>
+		<string>$(AppIdentifierPrefix)com.rekhaninan.frndlst</string>
 	</array>
 </dict>
 </plist>
