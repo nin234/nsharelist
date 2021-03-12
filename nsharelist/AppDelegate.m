@@ -168,7 +168,7 @@
      tabBarController = [[UITabBarController alloc] init];
     tabBarController.delegate = self;
     pShrMgr = [ListShareMgr alloc];
-    pShrMgr.appId = 2;
+    pShrMgr.appId = 4;
     pShrMgr = [pShrMgr init];
     pShrMgr.pNtwIntf.connectPort = @"16791";
     
