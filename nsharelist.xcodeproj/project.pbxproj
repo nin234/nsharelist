@@ -16,7 +16,6 @@
 		E86BBAD325EAD2EF003901D8 /* nsharelistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BBAD225EAD2EF003901D8 /* nsharelistUITests.m */; };
 		E86BBB0725EC51EB003901D8 /* libcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E86BBAF425EC503B003901D8 /* libcommon.a */; };
 		E86BBB0825EC51F2003901D8 /* libsharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E86BBB0025EC516F003901D8 /* libsharing.a */; };
-		E86BBB2F25EC99EE003901D8 /* ListShareMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BBB2E25EC99EE003901D8 /* ListShareMgr.m */; };
 		E86BBB3C25EF0985003901D8 /* SharingDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86BBB3B25EF0984003901D8 /* SharingDelegate.m */; };
 		E86BBB4625F0E447003901D8 /* nsharelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86BBB4525F0E447003901D8 /* nsharelist.swift */; };
 		E86BBB5B25F0FB60003901D8 /* sharing_new.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E86BBB5925F0FB5F003901D8 /* sharing_new.xcdatamodeld */; };
@@ -86,8 +85,6 @@
 		E86BBAD425EAD2EF003901D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E86BBAEE25EC503B003901D8 /* common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = common.xcodeproj; path = ../common/common.xcodeproj; sourceTree = "<group>"; };
 		E86BBAFA25EC516F003901D8 /* sharing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sharing.xcodeproj; path = ../sharing/sharing.xcodeproj; sourceTree = "<group>"; };
-		E86BBB2D25EC99EE003901D8 /* ListShareMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListShareMgr.h; sourceTree = "<group>"; };
-		E86BBB2E25EC99EE003901D8 /* ListShareMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListShareMgr.m; sourceTree = "<group>"; };
 		E86BBB3A25EF0984003901D8 /* SharingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharingDelegate.h; sourceTree = "<group>"; };
 		E86BBB3B25EF0984003901D8 /* SharingDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharingDelegate.m; sourceTree = "<group>"; };
 		E86BBB4425F0E447003901D8 /* nsharelist-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nsharelist-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -184,12 +181,10 @@
 				E86BBB9B25F454E9003901D8 /* EasyGrocList.xcdatamodeld */,
 				E86BBAA925EAD2ED003901D8 /* AppDelegate.m */,
 				E8E8DFD125F5986200F93623 /* NotesViewController.xib */,
-				E86BBB2D25EC99EE003901D8 /* ListShareMgr.h */,
 				E8E8DFDE25FA48A800F93623 /* client.der */,
 				E8E8DFE325FA48B200F93623 /* SharingDelegate.xib */,
 				E86BBB6325F32D0E003901D8 /* LaunchScreen.storyboard */,
 				E86BBB5925F0FB5F003901D8 /* sharing_new.xcdatamodeld */,
-				E86BBB2E25EC99EE003901D8 /* ListShareMgr.m */,
 				E86BBAAE25EAD2ED003901D8 /* ViewController.h */,
 				E86BBAAF25EAD2ED003901D8 /* ViewController.m */,
 				E86BBAB725EAD2EF003901D8 /* Assets.xcassets */,
@@ -417,7 +412,6 @@
 				E86BBB9D25F454E9003901D8 /* EasyGrocList.xcdatamodeld in Sources */,
 				E86BBAB025EAD2ED003901D8 /* ViewController.m in Sources */,
 				E86BBAAA25EAD2ED003901D8 /* AppDelegate.m in Sources */,
-				E86BBB2F25EC99EE003901D8 /* ListShareMgr.m in Sources */,
 				E86BBB5B25F0FB60003901D8 /* sharing_new.xcdatamodeld in Sources */,
 				E86BBB3C25EF0985003901D8 /* SharingDelegate.m in Sources */,
 			);

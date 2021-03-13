@@ -15,7 +15,7 @@
 #import "sharing/InAppPurchase.h"
 
 #import "sharing/NtwIntf.h"
-#import "ListShareMgr.h"
+#import "common/ListShareMgr.h"
 
 #import "SharingDelegate.h"
 #import "sharing/HomeViewController.h"
