@@ -229,6 +229,7 @@
     dataSync.navViewController = navCntrl;
     pAppCmnUtil.navViewController = navCntrl;
     pAppCmnUtil.bEasyGroc = true;
+    pAppCmnUtil.appId = NSHARELIST_ID;
     
     [[UIApplication sharedApplication] setApplicationIconBadgeNumber: 0];
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
