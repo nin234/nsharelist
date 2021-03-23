@@ -271,7 +271,7 @@
                       initWithNibName:nil bundle:nil];
     templViewCntrl.delegate = self;
     templViewCntrl.bShareTemplView = false;
-    templViewCntrl.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Planner" image:imagePlanner selectedImage:imagePlannerSel];
+    templViewCntrl.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Templates" image:imagePlanner selectedImage:imagePlannerSel];
     mainTemplVwNavCntrl = [[UINavigationController alloc] initWithRootViewController:templViewCntrl];
     pAppCmnUtil.templNavViewController = mainTemplVwNavCntrl;
     
