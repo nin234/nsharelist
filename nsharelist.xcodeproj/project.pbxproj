@@ -580,6 +580,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nsharelist/nsharelist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 3JEQ693MKL;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/Users/ninan/ios/sharing,
@@ -590,6 +591,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rekhaninan.nsharelist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "nsharelist/nsharelist-Bridging-Header.h";
@@ -607,6 +609,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nsharelist/nsharelist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 3JEQ693MKL;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/Users/ninan/ios/sharing,
@@ -617,6 +620,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rekhaninan.nsharelist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "nsharelist/nsharelist-Bridging-Header.h";
