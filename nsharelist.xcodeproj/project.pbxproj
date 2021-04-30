@@ -584,7 +584,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nsharelist/nsharelist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_TEAM = 3JEQ693MKL;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/Users/ninan/ios/sharing,
@@ -613,7 +613,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nsharelist/nsharelist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_TEAM = 3JEQ693MKL;
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/Users/ninan/ios/sharing,
